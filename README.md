@@ -90,7 +90,7 @@ Output: Sigmoid (Normal / Sick)
 
 ## 📈 Training Curves
 
-![Training Curves](training_curves.png)
+![Training Curves](training_curves(3).png)
 
 The red dashed line marks the start of fine-tuning (epoch 10). After fine-tuning, both accuracy improves and loss stabilizes significantly.
 
@@ -98,7 +98,7 @@ The red dashed line marks the start of fine-tuning (epoch 10). After fine-tuning
 
 ## 🖼️ Sample Predictions
 
-![Sample Predictions](sample_predictions.png)
+![Sample Predictions](Screenshot 2026-05-21 123038.png)
 
 The model predicts with high confidence (82%–100%) on most test samples. Grad-CAM heatmaps highlight the relevant cardiac regions used for classification.
 
