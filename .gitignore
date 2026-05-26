@@ -1,0 +1,34 @@
+# Model weights
+*.h5
+*.pt
+*.pth
+*.ckpt
+*.pb
+
+# Data folders (do not upload patient data)
+data/
+datasets/
+flat_dataset/
+*.csv
+*.docx
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+.env/
+
+# Jupyter
+.jupyter/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Kaggle
+kaggle.json
